@@ -1,0 +1,31 @@
+.custom_container{
+  position: relative;
+  top: 60px;
+}
+.masthead{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-image: asset-data-url('C:/Sites/practice/app/assets/images/slideshow/1.jpg');
+
+}
+.masthead2{
+  background-image: asset-data-url('C:/Sites/practice/app/assets/images/slideshow/3.jpg');
+
+}
+.site-heading{
+  padding: 200px 0;
+}
+.explore{
+  background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%);
+  text-align: center;
+  font-size: 50px;
+}
+.explore_link_to{
+  color: white;
+}
+.explore_link_to:hover{
+  text-decoration: none;
+
+}

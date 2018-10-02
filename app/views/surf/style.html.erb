@@ -1,0 +1,11 @@
+<div class ="container custom_container">
+  <h1 class = 'about_title'>Style</h1>
+  <% @data.each do |data|%>
+    <div class = "division_underline">
+      <h3 class ="title_header"><%= data.style%></h3>
+      <p><span class = "paragraph_header">Description:</span><br>
+        <%= data.description%></p>
+      <p ><span class = "paragraph_header">Suggest Board Length:</span> <%= data.length%></p>
+    </div>
+  <%end%>
+</div>

@@ -1,0 +1,18 @@
+<div class ="container custom_container">
+
+  <h1>Share experience</h1>
+
+  <%= form_for :post, url: add_path do |f| %>
+    <p>
+        <%= f.label :title %><br>
+        <%= f.text_field :title, {:class => "form-control"}%>
+    </p>
+    <p>
+      <%= f.label :body%><br>
+      <%= f.text_area :body, {:class => "form-control"}%>
+    </p>
+    <p>
+      <%= f.submit ({:class => 'btn btn-primary'})%>
+    </p>
+  <% end %>
+</div>

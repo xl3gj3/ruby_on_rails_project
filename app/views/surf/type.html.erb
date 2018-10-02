@@ -1,0 +1,13 @@
+<div class ="container custom_container">
+  <h1 class = 'about_title'>Snowboard type</h1>
+
+  <% @data.each do |data|%>
+    <div class = "division_underline">
+      <h3><%= data.type_board%></h3>
+      <%= image_tag(data.type_board+'.jpg',{:class => 'image'}) %>
+      <p><span class = "paragraph_header">Description:</span><br><br> <%= data.description%></p>
+      <p><span class = "paragraph_header">Pros:</span> <%= data.pros%></p>
+      <p><span class = "paragraph_header">Cons:</span> <%= data.cons%></p>
+    </div>
+  <%end%>
+</div>
